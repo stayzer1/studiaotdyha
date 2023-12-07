@@ -1,0 +1,209 @@
+.hero {
+    height: 667px;
+    background: url('../img/hero_bkg.png') center (center/cover) no-repeat;
+}
+.hero__title {
+    padding-bottom: 40px;
+    padding-top: clamp(7.5rem, 6.364rem + 5.68vw, 10.625rem);
+    color: var(--2, #F2F2EA);
+    text-align: center;
+    font-family: Palace_of_Sports;
+    font-size: clamp(1.875rem, 0.852rem + 5.11vw, 4.688rem);
+    font-weight: 400;
+    line-height: 65px;
+    display: flex;
+    justify-content: center;
+    font-variant: all-small-caps;
+}
+.hero_bkg {
+    width: 100%;
+}
+.filter {
+    border-radius: 22px;
+    height: 88px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(2px);
+}
+.filter__items {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+.filter__item {
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-bottom: 16px;
+    width: 150px;
+    height: 88px;
+    border-right: 1px solid rgba(0, 0, 0, 0.36);
+
+}
+.filter__item-title {
+    color: #015B66;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+.filter__item-dropdown {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    img {
+        padding-right: 5px;
+    }
+    a {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+}
+.filter__item-dropdown-select {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    bottom: -70px;
+    min-width: 140px;
+    z-index: 1;
+}
+.pos {
+    bottom: -110px;
+}
+.filter__item-dropdown-select a {
+    
+    opacity: 1;
+}
+.show {
+    display:flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.filter__btn {
+    border-radius: 20px;
+    background: #3D6B8C;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--2, #F2F2EA);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
+    font-weight: 400;
+    line-height: 20px;
+    height: 40px;
+}
+@media screen and (max-width: 1040px) {
+    .filter {
+        height: 150px;
+    }
+    .border{
+        border-right: none;
+    }
+}
+@media screen and (max-width: 890px) {
+    .filter {
+        height: 200px;
+    }
+    .filter__items {
+        justify-content: unset;
+        margin-left: 60px;
+    }
+    .filter__btn {
+        margin-left: 200px;
+    }
+    .border2 {
+        border: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .filter {
+        height: 220px;
+    }
+    .filter__btn {
+        margin-left: 20px;
+    }
+    .border2 {
+        border-right: 1px solid rgba(0, 0, 0, 0.36);
+    }
+    .border2, border {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 676px) {
+    .navbar {
+        justify-content: center;
+    }
+    .filter {
+        height: 260px;
+    }
+    .filter__items {
+        margin-left: 30px;
+    }
+    .border3 {
+        border: none;
+    }
+    .filter__btn {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 620px) {
+    .container {
+        
+    }
+    .filter {
+        height: 300px;
+    }
+    .filter__item {
+        margin-right: clamp(0.063rem, -9.79rem + 30.91vw, 2.188rem);
+        border: none;
+    }
+    .filter__items {
+        margin-left: 65px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .filter__items {
+        margin-left: clamp(0.063rem, -17.074rem + 52.73vw, 1.875rem);
+    }
+}
+@media screen and (max-width: 440px) {
+    .filter {
+        height: 350px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .filter__item {
+        width: 115px;
+    }
+    .filter__items {
+        justify-content: center;
+        gap: 30px;
+    }
+    .filter__btn {
+        height: 60px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .container {
+        padding: 0;
+    }
+    .filter {
+        width: 350px;
+        margin: 0 auto;
+    }
+}

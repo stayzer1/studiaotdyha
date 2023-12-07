@@ -1,0 +1,68 @@
+.rest__title {
+    margin-top: 100px;
+    margin-bottom: clamp(2.5rem, 1.898rem + 2.47vw, 3.75rem);
+    color: #3D6B8C;
+    text-align: center;
+    font-family: Palace_of_Sports;
+    font-size: clamp(1.5rem, 1.019rem + 1.98vw, 2.5rem);
+    font-weight: 400;
+    line-height: clamp(1.875rem, 1.574rem + 1.23vw, 2.5rem);
+}
+.rest__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.rest__image {
+    position: relative;
+    z-index: 2;
+    
+}
+.absolute__image {
+    position: absolute;
+    top: 0;
+    right: -45%;
+    z-index: 1;
+}
+.rest__info {
+    width: 440px;
+    margin-bottom: 90px;
+}
+.rest__info-text {
+    color: #37393A;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+    font-weight: 400;
+    line-height: clamp(1rem, 0.88rem + 0.49vw, 1.25rem);
+}
+.rest__info-text:nth-child(1) {
+    list-style-image: url(../img/li1.svg);
+}
+.rest__info-text:nth-child(2) {
+    list-style-image: url(../img/li2.svg);
+}
+.rest__info-text:nth-child(3) {
+    list-style-image: url(../img/li3.svg);
+}
+.rest__info-text:nth-child(4) {
+    list-style-image: url(../img/li4.svg);
+    padding-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+    .rest__blocks{
+        justify-content: center;
+    }
+    .rest__image {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    .rest__info-text {
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+    .rest__info {
+        width: 290px;
+    }
+}

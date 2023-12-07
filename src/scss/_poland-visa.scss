@@ -1,0 +1,33 @@
+.poland {
+    background: url(../img/poland-visa-bkg.png) center (center/cover) no-repeat;
+    .poland__title {
+        padding-top: clamp(7.5rem, 5.995rem + 6.17vw, 10.625rem);
+        padding-bottom: clamp(2.5rem, 1.898rem + 2.47vw, 3.75rem);
+        color: #3D6B8C;
+        text-align: center;
+        font-family: Palace_of_Sports;
+        font-size: clamp(1.5rem, 1.019rem + 1.98vw, 2.5rem);
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .visa__cards {
+        padding-bottom: clamp(3.75rem, 2.546rem + 4.94vw, 6.25rem);
+    }
+    .visa__card {
+        width: clamp(10.875rem, 7.685rem + 13.09vw, 17.5rem);
+        height: clamp(11.313rem, 8.032rem + 13.46vw, 18.125rem);
+        background-image: linear-gradient(242deg, #C39D8A -6.16%, #E3CBC7 23.03%, #AFC2C8 60.3%, #AFC2C8 85.77%, #5DB6B9 113.09%);
+    }
+    .visa__card-image {
+    }
+    .visa__card-title a {
+        padding: 20px 20px 12px 20px;
+        margin-top: 0;
+        color: #3D6B8C;
+        font-family: Montserrat;
+        font-size: clamp(0.875rem, 0.574rem + 1.23vw, 1.5rem);
+        font-weight: 600;
+        line-height: clamp(1.125rem, 0.944rem + 0.74vw, 1.5rem);
+        letter-spacing: -1.2px;
+    }
+}

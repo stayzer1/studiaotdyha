@@ -1,0 +1,273 @@
+.deal-visa {
+    background-color: #F2F2EA;
+}
+.grid__container {
+    display: grid;
+    grid-template: repeat(2, clamp(18.25rem, 16.775rem + 6.05vw, 21.313rem)) / 1fr 1fr;
+}
+.deal-visa__intro {
+    display: flex;
+    padding-top: clamp(7.5rem, 5.995rem + 6.17vw, 10.625rem);
+    align-items: center;
+    padding-bottom: clamp(2.5rem, 1.898rem + 2.47vw, 3.75rem);
+}
+.deal-visa__title {
+    color: #3D6B8C;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: Palace_of_Sports;
+    width: 50%;
+    font-size: clamp(1.5rem, 1.019rem + 1.98vw, 2.5rem);
+    font-weight: 400;
+    line-height: 40px;
+}
+.deal-visa__image-visa {
+    // float: left;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: clamp(22.375rem, 21.111rem + 5.19vw, 25rem);
+    height: clamp(15.75rem, 14.877rem + 3.58vw, 17.563rem);
+}
+.deal-visa__btn {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #3D6B8C;
+    color: #F2F2EA;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+    font-weight: 500;
+    line-height: clamp(1rem, 0.88rem + 0.49vw, 1.25rem);
+    width: 172px;
+    height: 40px;
+}
+.deal-visa__info {
+    display: flex;
+    width: clamp(22.375rem, 18.944rem + 14.07vw, 29.5rem);
+    flex-direction: column;
+    // float: right;
+}
+.deal-visa__info-title {
+    color: #3D6B8C;
+    font-family: Montserrat;
+    font-size: clamp(1.125rem, 0.944rem + 0.74vw, 1.5rem);
+    font-weight: 600;
+    line-height: clamp(1.125rem, 0.944rem + 0.74vw, 1.5rem);
+    letter-spacing: -1.2px;
+    padding-bottom: clamp(1.25rem, 0.769rem + 1.98vw, 2.25rem);
+}
+.deal-visa__info-text {
+    color: #37393A;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+    font-weight: 400;
+    line-height: 20px;
+    p {
+        color: #3D6B8C;
+        font-family: Montserrat;
+        font-size: clamp(1rem, 0.94rem + 0.25vw, 1.125rem);
+        font-weight: 600;
+        line-height: 20px;
+        width: 100%;
+        display: inline;
+        white-space: nowrap;
+    }
+}
+.deal-visa__conditions {
+    // float: left;
+    padding-top: clamp(5rem, 4.398rem + 2.47vw, 6.25rem);
+    width: clamp(22.375rem, 21.111rem + 5.19vw, 25rem);
+}
+.deal-visa__conditions-title {
+    color: #3D6B8C;
+    font-family: Montserrat;
+    font-size: clamp(1.125rem, 0.944rem + 0.74vw, 1.5rem);
+    font-weight: 600;
+    line-height: clamp(1.25rem, 1.13rem + 0.49vw, 1.5rem);
+    letter-spacing: -1.2px;
+    padding-bottom: 20px;
+}
+.deal-visa__conditions-text {
+    color: #37393A;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: clamp(1.125rem, 1.065rem + 0.25vw, 1.25rem);
+}
+.deal-visa__image-side {
+    padding-top: 20px;
+    // float: right;
+    width: clamp(22.375rem, 18.704rem + 15.06vw, 30rem);
+    height: clamp(20.25rem, 16.91rem + 13.7vw, 27.188rem);
+    img {
+        width: clamp(22.375rem, 18.704rem + 15.06vw, 30rem);
+        height: clamp(20.25rem, 16.91rem + 13.7vw, 27.188rem);
+    }
+}
+.deal-visa__link-btn {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #3D6B8C;
+    color: #F2F2EA;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    width: 180px;
+    height: 40px;
+    margin-top: clamp(2rem, 1.157rem + 3.46vw, 3.75rem);
+}
+.deal-visa {
+    .mb {
+        padding-bottom: clamp(3.75rem, 2.546rem + 4.94vw, 6.25rem);
+    }
+}
+.accordion {
+    margin-top: 200px;
+    .block-560 {
+        display: none;
+    }
+    .accordion__item {
+        border-radius: 12px;
+        border-bottom: 1px solid #5F9FCC;
+
+        &.accordion__item-active {
+            .accordion__item-content {
+                display: block;
+            }
+        }
+
+
+        .accordion__item-trigger {
+            display: flex;
+            padding: 20px 0;
+            align-items: center;
+            cursor: pointer;
+
+            .trigger__num {
+                margin-right: 10px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0.035em;
+                color: #8547C6;
+            }
+
+            .trigger__text {
+                color: #3D6B8C;
+                font-family: Montserrat;
+                font-size: clamp(1rem, 0.94rem + 0.25vw, 1.125rem);
+                font-weight: 600;
+                line-height: 20px; 
+            }
+
+            .trigger__img {
+                position: relative;
+                margin-left: auto;
+                margin-right: 20px;
+            }
+        }
+
+        .accordion__item-content {
+            padding-bottom: 20px;
+            display: none;
+            animation: fade .3s ease;
+
+            .content__text {
+                margin-top: 25px;
+                padding-left: 35px;
+                color: #37393A;
+                font-family: Montserrat;
+                font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+                font-weight: 400;
+                line-height: clamp(1.125rem, 1.065rem + 0.25vw, 1.25rem);
+
+                &:first-child {
+                    margin-top: 0;
+                }
+                &-title {
+                    color: #3D6B8C;
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                }
+                &-subtitle {
+                    color: #3D6B8C;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    li {
+                        color: #37393A;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 20px;
+                        list-style-type: inherit;
+                        margin-left: 20px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+                &-text {
+                    color: #37393A;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    li {
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 20px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        list-style-type: inherit;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}
+@media screen and (max-width: 560px) {
+    .block-560 {
+        display: block!important;
+    }
+    .hidden-560 {
+        display: none;
+    }
+}
+@media screen and (max-width: 880px) {
+    .grid__container {
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-template:  clamp(18.25rem, 16.775rem + 6.05vw, 21.313rem) / 1fr;
+    }
+    .deal-visa__info-title {
+        margin-top: 60px;
+    }
+}

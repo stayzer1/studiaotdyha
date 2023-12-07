@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    @@include('./html/_header-dark.html')
+    <section class="france">
+        <div class="container">
+            <div class="deal-visa__intro">
+                <a href="visa-page.html" class="back__btn">
+                <img src="img/arrow_back.svg" alt="">
+                </a>
+                <h2 class="deal-visa__title">ФРАНЦИЯ</h2>
+            </div>
+            <ul class="country__subtitle">Необходимые документы:
+                <li>Паспорт (не старше 10 лет)</li>
+                <li>Копия паспорта всех страниц с визами и штампами</li>
+                <li>Фото 2 шт (3,5*4,5 см)</li>
+                <li>Анкета</li>
+                <li>Страховой полис (на срок поездки либо более)</li>
+                <li>Справка о доходах за последние 3 месяца</li>
+                <li>Выписка из банка не старше 5 дней на день подачи документов (желательно от 1000 евро остаток на счету или 65 EUR / на день предполагаемого пребывания)</li>
+                <li>Бронь билетов (мы делаем сами)</li>
+                <li>Бронь отеля, можно оплаченную или без предоплаты</li>
+            </ul>
+            <ul class="country__subtitle">Для детей:
+                <li>Свидетельство о рождении (ОРИГИНАЛ + КСЕРОКОПИЯ)</li>
+                <li>Необходимо разрешение на выезд от обоих родителей. Это разрешение должно быть заверено у государственного нотариуса, переведено на французский язык, и перевод заверяется нотариально государственным нотариусом</li>
+                <li>Если имеется только один родитель, необходимо предоставить подтверждающий документ об отсутствии второго родителя (решение суда, свидетельство о смерти либо другой документ) (ОРИГИНАЛ + КСЕРОКОПИЯ)</li>
+                <li>Спонсорское письмо</li>
+            </ul>
+        </div>
+    </section>
+    <form class="form">
+        <h2 class="form__title">ОТПРАВЛЯЙТЕСЬ<br> В ПУТЕШЕСТВИЕ С НАМИ</h2>
+        <div class="form__subtitle">Оставьте свои данные и мы свяжемся с вами</div>
+        <input type="text" value="" placeholder="Имя">
+        <input type="number" value="" placeholder="Номер телефона" class="form__phone">
+        <button class="form__button">Позвоните мне</button>
+    </form>
+    @@include('./html/_footer.html')
+</body>
+</html>

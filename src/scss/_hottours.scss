@@ -1,0 +1,112 @@
+.hottours__title {
+    margin-top: 100px;
+    margin-bottom: 55px;
+    color: #3D6B8C;
+    text-align: center;
+    font-family: Palace_of_Sports;
+    font-size: clamp(1.5rem, 1.019rem + 1.98vw, 2.5rem);
+    font-weight: 400;
+    line-height: clamp(1.875rem, 1.574rem + 1.23vw, 2.5rem);
+}
+.hottours__cards {
+    display: flex;
+    gap: clamp(0.625rem, -0.278rem + 3.7vw, 2.5rem);
+    justify-content: center;
+}
+.hottours__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 13px;
+    width: clamp(10.875rem, 7.685rem + 13.09vw, 17.5rem);
+    background-image: linear-gradient(242deg, #C39D8A -6.16%, #E3CBC7 23.03%, #AFC2C8 60.3%, #AFC2C8 85.77%, #5DB6B9 113.09%);
+}
+.hottours__card__image {
+    position: relative;
+    border-radius: 13px;
+    text-align: center;
+    padding-bottom: 10px;
+    img {
+        padding-top: 10px;
+        width: clamp(9.563rem, 6.403rem + 12.96vw, 16.125rem);
+        height: clamp(6.375rem, 4.329rem + 8.4vw, 10.625rem);
+    }
+}
+.hottours__card__image-info {
+    position: absolute;
+    top: 58%;
+    left: 0;
+    color: #3D6B8C;
+    display: inline-flex;
+    padding: 5px 30px;
+    gap: 10px;
+    border-radius: 0px 14px 14px 0px;
+    background: #F2F2EA;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.20);
+    font-family: Oswald;
+    font-size: clamp(0.875rem, 0.755rem + 0.49vw, 1.125rem);
+    font-weight: 400;
+    line-height: clamp(1.125rem, 1.065rem + 0.25vw, 1.25rem);
+}
+.hottours__card__hotel {
+    color: #3D6B8C;
+    font-family: Oswald;
+    font-size: clamp(0.875rem, 0.755rem + 0.49vw, 1.125rem);
+    font-weight: 400;
+    padding-bottom: 10px;
+    line-height: clamp(1.125rem, 1.065rem + 0.25vw, 1.25rem);
+}
+.hottours__card__country {
+    color: #3D6B8C;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.755rem + 0.49vw, 1.125rem);
+    font-weight: 600;
+    padding-bottom: 20px;
+    line-height: clamp(1.125rem, 1.065rem + 0.25vw, 1.25rem);
+}
+.hottours__card__info-people, .hottours__card__info-date, .hottours__card__info-time, .hottours__card__info-food {
+    color: #3D6B8C;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    line-height: clamp(1rem, 0.88rem + 0.49vw, 1.25rem);
+}
+.hottours__card__button {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #3D6B8C;
+    color: var(--white-primary, #F2F2EA);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+    font-weight: 500;
+    margin-bottom: 17px;
+    line-height: clamp(1rem, 0.88rem + 0.49vw, 1.25rem);
+}
+.hottours__link {
+    a {
+        color: #3D6B8C;
+        text-align: end;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-right: 10px;
+    }
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 90px;
+}
+@media screen and (max-width: 580px) {
+    .hottours__card:last-child {
+        display: none;
+    }
+}

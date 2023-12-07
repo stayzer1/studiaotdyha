@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Project</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+    <!-- Header -->
+    @@include('./html/_header.html')
+    
+    <!-- Main Page -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">ПУТЕШЕСТВИЯ, КОТОРЫЕ<br> ЗАПОМИНАЮТСЯ</h1>
+                <div class="filter">
+                    <div class="filter__items">
+                        <div class="filter__item">
+                            <div class="filter__item-title">Город вылета:</div>
+                            <div class="filter__item-dropdown">
+                                Минск
+                                <div class="filter__item-dropdown-select">
+                                    <a href="#">Москва</a>
+                                    <a href="#">Стамбул</a>
+                                    <a href="#">Гродно</a>
+                                    <a href="#">Абакан</a>
+                                </div>
+                                <img src="img/down-arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="filter__item border4">
+                            <div class="filter__item-title">Страна:</div>
+                            <div class="filter__item-dropdown">
+                                Турция
+                                <div class="filter__item-dropdown-select">
+                                    <a href="#">ОАЭ</a>
+                                    <a href="#">Россия</a>
+                                    <a href="#">Беларусь</a>
+                                    <a href="#">Украина</a>
+                                </div>
+                                <img src="img/down-arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="filter__item border3">
+                            <div class="filter__item-title">Ночей:</div>
+                            <div class="filter__item-dropdown">
+                                7
+                                <div class="filter__item-dropdown-select pos">
+                                    <a href="#">1</a>
+                                    <a href="#">2</a>
+                                    <a href="#">3</a>
+                                    <a href="#">4</a>
+                                    <a href="#">5</a>
+                                    <a href="#">6</a>
+                                </div>
+                                <img src="img/down-arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="filter__item border2">
+                            <div class="filter__item-title">Дата начала:</div>
+                            <div class="filter__item-dropdown">
+                                12.10.2023
+                                <div class="filter__item-dropdown-select pos">
+                                    <a href="#">1.01.2024</a>
+                                    <a href="#">2.02.2024</a>
+                                    <a href="#">3.03.2024</a>
+                                    <a href="#">4.04.2024</a>
+                                    <a href="#">5.05.2024</a>
+                                    <a href="#">6.06.2024</a>
+                                </div>
+                                <img src="img/down-arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="filter__item border">
+                            <div class="filter__item-title">Туристы:</div>
+                            <div class="filter__item-dropdown">
+                                Взрослых: 2
+                                <div class="filter__item-dropdown-select">
+                                    <a href="#">Взрослых: 1</a>
+                                    <a href="#">Взрослых: 2</a>
+                                    <a href="#">Взрослых: 3</a>
+                                    <a href="#">Взрослых: 4</a>
+                                </div>
+                                <img src="img/down-arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <button class="filter__item filter__btn">Подбор тура</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hottours">
+            <div class="container">
+                <h2 class="hottours__title">ГОРЯЩИЕ ТУРЫ</h2>
+                <div class="hottours__cards">
+                    <div class="hottours__card">
+                        <div class="hottours__card__image">
+                            <img src="img/hottours_bkg.png" alt="">
+                            <h1 class="hottours__card__image-info">3600$ за 2-х</h1>
+                        </div>
+                        <h1 class="hottours__card__hotel">Jumaira Rotana 4*</h1>
+                        <h2 class="hottours__card__country">ОАЭ, Дубай</h2>
+                        <div class="hottours__card__info">
+                            <div class="hottours__card__info-people">DBL - 2 взрослых</div>
+                            <div class="hottours__card__info-date">08 ноя 2023 - 15 ноя 2023</div>
+                            <div class="hottours__card__info-time">7 ночей</div>
+                            <div class="hottours__card__info-food">Все включено</div>
+                        </div>
+                        <button class="hottours__card__button">Забронировать</button>
+                    </div>
+                    <div class="hottours__card">
+                        <div class="hottours__card__image">
+                            <img src="img/hottours_bkg.png" alt="">
+                            <div class="hottours__card__image-info">3600$ за 2-х</div>
+                        </div>
+                        <h1 class="hottours__card__hotel">Jumaira Rotana 4*</h1>
+                        <h2 class="hottours__card__country">ОАЭ, Дубай</h2>
+                        <div class="hottours__card__info">
+                            <div class="hottours__card__info-people">DBL - 2 взрослых</div>
+                            <div class="hottours__card__info-date">08 ноя 2023 - 15 ноя 2023</div>
+                            <div class="hottours__card__info-time">7 ночей</div>
+                            <div class="hottours__card__info-food">Все включено</div>
+                        </div>
+                        <button class="hottours__card__button">Забронировать</button>
+                    </div>
+                    <div class="hottours__card">
+                        <div class="hottours__card__image">
+                            <img src="img/hottours_bkg.png" alt="">
+                            <div class="hottours__card__image-info">3600$ за 2-х</div>
+                        </div>
+                        <h1 class="hottours__card__hotel">Jumaira Rotana 4*</h1>
+                        <h2 class="hottours__card__country">ОАЭ, Дубай</h2>
+                        <div class="hottours__card__info">
+                            <div class="hottours__card__info-people">DBL - 2 взрослых</div>
+                            <div class="hottours__card__info-date">08 ноя 2023 - 15 ноя 2023</div>
+                            <div class="hottours__card__info-time">7 ночей</div>
+                            <div class="hottours__card__info-food">Все включено</div>
+                        </div>
+                        <button class="hottours__card__button">Забронировать</button>
+                    </div>
+                </div>
+                <div class="hottours__link">
+                    <a href="#">Все туры</a><img src="img/all_tours.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="company">
+            <div class="container">
+                <h2 class="company__title">О КОМПАНИИ</h2>
+                <div class="company__blocks">
+                    <div class="company__block">
+                        Мы осуществляем подбор тура тщательно и скрупулёзно, опираясь на ваши предпочтения. Компания берет на себя заботы по бронированию билетов на горящие туры, оказывает визовую поддержку и полное сопровождение при оформлении документов. Почти 4 000 клиентов уже оценили наш сервис и позволили себе стать на шаг ближе к мечте.
+                    </div>
+                    <div class="company__image">
+                        <img src="img/company_bkg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rest">
+            <div class="container">
+                <h2 class="rest__title">ОТДЫХ С НАМИ ЭТО</h2>
+                <div class="rest__blocks">
+                    <div class="rest__image">
+                        <img src="img/rest_woman.png" class="rest__image-fisrt" alt="">
+                        <img src="img/rest_img.png" class="absolute__image" alt="">
+                    </div>
+                    <ul class="rest__info">
+                        <li class="rest__info-text">Мы работаем на туристическом рынке с 2013 года. За продолжительный срок работы мы стали одним из лидирующих операторов в области въездного туризма и в организации путешествий.</li>
+                        <li class="rest__info-text">Благодаря сотрудничеству компании со многими надёжными туроператорами мы сможем подобрать тур в любую точку мира по привлекательной цене.</li>
+                        <li class="rest__info-text">В нашем турагентстве работают квалифицированные и опытные специалисты, которые находятся на связи с клиентами 24/7.</li>
+                        <li class="rest__info-text">Наша компания занимается всем: от визовой поддержки до организации поездки. От предоставление трансфера до встречи группы. От постоянной информационной поддержки до раннего бронирования.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="visa">
+            <div class="container">
+                <h2 class="visa__title">ВИЗЫ</h2>
+                <div class="visa__cards">
+                    <div class="visa__card">
+                        <div class="visa__card-image">
+                            <img src="img/polka.png" alt="">
+                        </div>
+                        <h3 class="visa__card-title"><a href="#">Визы в Польшу</a></h3>
+                    </div>
+                    <div class="visa__card">
+                        <div class="visa__card-image">
+                            <img src="img/spain.png" alt="">
+                        </div>
+                        <h3 class="visa__card-title"><a href="#">Визы в Испанию</a></h3>
+                    </div>
+                    <div class="visa__card">
+                        <div class="visa__card-image">
+                            <img src="img/litva.png" alt="">
+                        </div>
+                        <h3 class="visa__card-title"><a href="#">Визы в Литву</a></h3>
+                    </div>
+                    <div class="visa__card">
+                        <div class="visa__card-image">
+                            <img src="img/estonia.png" alt="">
+                        </div>
+                        <h3 class="visa__card-title"><a href="#">Визы в Эстонию</a></h3>
+                    </div>
+                    <div class="visa__card">
+                        <div class="visa__card-image">
+                            <img src="img/usa.png" alt="">
+                        </div>
+                        <h3 class="visa__card-title"><a href="#">Визы в США</a></h3>
+                    </div>
+                    <div class="visa__card">
+                        <div class="visa__card-image">
+                            <img src="img/grecia.png" alt="">
+                        </div>
+                        <h3 class="visa__card-title"><a href="#">Визы в Грецию</a></h3>
+                    </div>
+                </div>
+                <div class="hottours__link visa__link">
+                    <a href="visa-page.html">Все визы</a><img src="img/all_tours.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="booking">
+            <div class="container">
+                <h2 class="booking__title">РАННЕЕ БРОНИРОВАНИЕ</h2>
+                <div class="booking__blocks">
+                    <div class="booking__info">
+                        <h3 class="booking__info-title">Греция</h3>
+                        <div class="booking__info-text">Курорты Греции предлагают своим гостям страны множество возможностей для замечательного отдыха. Насладитесь кристально чистым морем и песчаными пляжами, погрузиться в культурную историю города, попробовать кухню и насладиться местной атмосферой.
+                        </div>
+                    </div>
+                    <a href="#" class="booking__image">
+                        <img src="img/choose_hotel_grecia.png" alt="">
+                    </a>
+                    <a href="#" class="booking__image">
+                        <img src="img/choose_hotel_egypt.png" alt="">
+                    </a>
+                    <div class="booking__info">
+                        <h3 class="booking__info-title">Египет</h3>
+                        <div class="booking__info-text">ОАЭ — это тёплое солнце, белоснежные пляжи и высококлассный сервис. Вы можете провести время в гостиницах, отелях или курортах, наслаждаясь спа-услугами, роскошной кухней и различными формами развлечений.
+                        </div>
+                    </div>
+                    <div class="booking__info">
+                        <h3 class="booking__info-title">Мальдивы</h3>
+                        <div class="booking__info-text">Мальдивы — это место, где вы можете наслаждаться спа-процедурами и роскошным отдыхом в отелях высокого класса. На некоторых островах есть возможность наблюдать за местной флорой и фауной, а также посетить местные рынки, где можно приобрести сувениры и хорошую местную еду.
+                        </div>
+                    </div>
+                    <a href="#" class="booking__image">
+                        <img src="img/choose_hotel_turkey.png" alt="">
+                    </a>
+                </div>
+                <div class="booking__wrapper__link">
+                    <a href="#" class="booking__link">Cмотреть еще<img src="img/arrow_booking.svg" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <form class="form">
+            <h2 class="form__title">ОТПРАВЛЯЙТЕСЬ<br> В ПУТЕШЕСТВИЕ С НАМИ</h2>
+            <div class="form__subtitle">Оставьте свои данные и мы свяжемся с вами</div>
+            <input type="text" value="" placeholder="Имя">
+            <input type="number" value="" placeholder="Номер телефона" class="form__phone">
+            <button class="form__button">Позвоните мне</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    @@include('./html/_footer.html')
+
+</body>
+
+<script src="./js/scripts.min.js"></script>
+
+</html>

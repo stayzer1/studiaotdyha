@@ -1,0 +1,369 @@
+.hottour {
+    background-color: #F2F2EA;
+}
+.tour__images {
+    text-align: center;
+    position: relative;
+    width: clamp(22.375rem, 5.463rem + 69.38vw, 57.5rem);
+    img {
+        padding-bottom: clamp(1.5rem, 1.019rem + 1.98vw, 2.5rem);
+        width: clamp(22.375rem, 5.463rem + 69.38vw, 57.5rem);
+    }
+}
+.tour__images img:last-child {
+    margin-bottom: 0;
+}
+.tour__images-text {
+    width: 100%;
+    position: absolute;
+    transform: translate(0px, -180px);
+    height: 60px;
+    padding: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.50);
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Palace_of_Sports;
+    font-size: clamp(1.5rem, 1.019rem + 1.98vw, 2.5rem);
+    font-weight: 400;
+    line-height: clamp(1.875rem, 1.574rem + 1.23vw, 2.5rem);
+    text-transform: uppercase;
+}
+.link__line__wrapper {
+    background-image: linear-gradient(242deg, #C39D8A -6.16%, #E3CBC7 23.03%, #AFC2C8 60.3%, #AFC2C8 85.77%, #5DB6B9 113.09%);
+    width: 100%;
+    position: relative;
+}
+.link__line {
+    
+    height: clamp(5.063rem, 1.481rem + 14.69vw, 12.5rem);
+}
+.link__line-links {
+    display: flex;
+    gap: 10px;
+    width: clamp(1.5rem, 0.898rem + 2.47vw, 2.75rem);
+    height: clamp(1.5rem, 0.898rem + 2.47vw, 2.75rem);
+    img {
+        width: clamp(1.5rem, 0.898rem + 2.47vw, 2.75rem);
+        height: clamp(1.5rem, 0.898rem + 2.47vw, 2.75rem);
+    }
+}
+.link__line-title {
+    padding-top: clamp(0.75rem, 0.208rem + 2.22vw, 1.875rem);
+    padding-bottom: clamp(0.375rem, -0.046rem + 1.73vw, 1.25rem);
+    color: #3D6B8C;
+    width: clamp(16.313rem, 6.111rem + 41.85vw, 37.5rem);
+    font-family: Oswald;
+    font-size: clamp(0.75rem, 0.028rem + 2.96vw, 2.25rem);
+    font-weight: 400;
+    line-height: clamp(1rem, 0.488rem + 2.1vw, 2.063rem);
+}
+.link__line-abs {
+    position: absolute;
+    top:0;
+    transform: translate(0px, -80px);
+    right: 0;
+    width: clamp(12.313rem, -0.116rem + 50.99vw, 38.125rem);
+    height: clamp(5.625rem, -0.093rem + 23.46vw, 17.5rem);
+}
+.tour__text {
+    p {
+        color: #37393A;
+        white-space: nowrap;
+        display: inline;
+        font-family: Montserrat;
+        font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+        font-weight: 500;
+        line-height: clamp(1.125rem, 1.065rem + 0.25vw, 1.25rem);
+    }
+    color: #37393A;
+    font-family: Montserrat;
+    padding-bottom: 20px;
+    padding-top: clamp(2.5rem, 1.898rem + 2.47vw, 3.75rem);
+    font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);    font-weight: 400;
+    line-height: clamp(1.125rem, 1.065rem + 0.25vw, 1.25rem);
+}
+.tour__subtitle {
+    color: #3D6B8C;
+    font-family: Montserrat;
+    font-size: clamp(1.125rem, 0.944rem + 0.74vw, 1.5rem);
+    font-weight: 600;
+    line-height: clamp(1.25rem, 1.13rem + 0.49vw, 1.5rem);
+    letter-spacing: -1.2px;
+}
+.tour__cards-title {
+    color: #3D6B8C;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.country__cards {
+    display: flex;
+    gap: clamp(0.625rem, -0.278rem + 3.7vw, 2.5rem);
+}
+.country__card {
+}
+.country__card-text {
+    color: #37393A;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: -1.2px;
+}
+.pt {
+    padding-top: clamp(2.5rem, 0.694rem + 7.41vw, 6.25rem);
+    padding-bottom: clamp(2rem, 1.157rem + 3.46vw, 3.75rem);
+}
+.tour__guide {
+    border-radius: 20px;
+    background-image: linear-gradient(242deg, #C39D8A -6.16%, #E3CBC7 23.03%, #AFC2C8 60.3%, #AFC2C8 85.77%, #5DB6B9 113.09%);
+}
+.tour__guide__number {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #37393A;
+    font-family: Palace_of_Sports;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 65px;
+    font-variant: all-small-caps;
+    padding-left: 16px;
+
+}
+.toure__guide__number2 {
+    padding-left: 16px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: #37393A;
+    font-family: Palace_of_Sports;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 65px;
+    font-variant: all-small-caps;
+}
+.tour__guide-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 50px clamp(20.438rem, 14.63rem + 23.83vw, 32.5rem) 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+}
+.tour__guide-image {
+    padding-top: 20px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: clamp(20.438rem, 14.63rem + 23.83vw, 32.5rem);
+    height: clamp(9.188rem, 6.329rem + 11.73vw, 15.125rem);
+    img {
+        width: clamp(20.438rem, 14.63rem + 23.83vw, 32.5rem);
+        height: clamp(9.188rem, 6.329rem + 11.73vw, 15.125rem);
+    }
+}
+.tour__guide-phones {
+    display: flex;
+    width: clamp(20.438rem, 14.63rem + 23.83vw, 32.5rem);
+    height: clamp(9.188rem, 6.329rem + 11.73vw, 15.125rem);
+    padding: 30px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 2px solid #3D6B8C;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.tour__guide-phones a {
+    color: #3D6B8C;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.755rem + 0.49vw, 1.125rem);
+    font-weight: 600;
+    line-height: 20px;
+}
+.tour__guide-image2 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: clamp(20.438rem, 14.63rem + 23.83vw, 32.5rem);
+    height: clamp(9.188rem, 6.329rem + 11.73vw, 15.125rem);
+    img {
+        width: clamp(20.438rem, 14.63rem + 23.83vw, 32.5rem);
+        height: clamp(9.188rem, 6.329rem + 11.73vw, 15.125rem);
+    }
+}
+.tour__guide-text {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    color: #37393A;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+    font-weight: 400;
+    line-height: clamp(1rem, 0.88rem + 0.49vw, 1.25rem);
+    padding-top: 20px;
+    padding-right: 40px;
+}
+.tour__guide-text2 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    color: #37393A;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+    font-weight: 400;
+    line-height: clamp(1rem, 0.88rem + 0.49vw, 1.25rem);
+}
+.tour__guide-btn {
+    display: flex;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 20px;
+    background: #3D6B8C;
+    color: #F2F2EA;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+.btn-mb {
+    padding-bottom: 40px;
+}
+.tour__subtitle {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.tour__disclaimer {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 2px solid #3D6B8C;
+    color: #3D6B8C;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.815rem + 0.25vw, 1rem);
+    font-weight: 400;
+    line-height: clamp(1rem, 0.88rem + 0.49vw, 1.25rem);
+}
+@media screen and (max-width: 991px) {
+    .link__line-abs {
+        transform: translate(0,-55px);
+    }
+    .country__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .country__card:last-child {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 840px) {
+    .tour__guide-container {
+        grid-template-rows: repeat(3, clamp(9.188rem, 6.329rem + 11.73vw, 15.125rem));
+        grid-template-columns: clamp(20.438rem, 14.63rem + 23.83vw, 32.5rem) 1fr
+    }
+    .tour__guide__number, .toure__guide__number2 {
+        display: none;
+    }
+    .tour__guide-image {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .tour__guide-image2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .tour__guide-phones {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .tour__guide-text, .tour__guide-text2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+@media screen and (max-width: 768px) {
+    .link__line-abs {
+        transform: translate(0,-40px);
+    }
+    .tour__guide-container {
+        justify-content: center;
+        grid-template-columns: clamp(20.438rem, 14.63rem + 23.83vw, 32.5rem);
+        grid-template-rows: 70px repeat(3, clamp(9.188rem, 6.329rem + 11.73vw, 15.125rem)) 100px;
+    }
+    .tour__guide-text {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .tour__guide-image {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-top: 0;
+    }
+    .tour__guide-phones {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .tour__guide-image2 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .tour__guide-text2 {
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+@media screen and (max-width: 590px) {
+    .link__line-abs {
+        transform: translate(0,-24px);
+    }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 390px) {
+    .tour__images {
+        padding-left: 20px;
+    }
+    .tour__images-text {
+        transform: translate(0,-122px);
+    }
+    .link__line-abs {
+        transform: translate(0,-9px);
+    }
+    .link__line {
+        padding-left: 20px;
+    }
+}
