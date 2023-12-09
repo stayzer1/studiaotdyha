@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    @@include('./html/_header-dark.html')
+    <section class="payment">
+        <div class="container">
+            <div class="deal-visa__intro">
+                <a href="index.html" class="back__btn">
+                <img src="img/arrow_back.svg" alt="">
+                </a>
+                <h2 class="deal-visa__title">ОПЛАТА ЗАКАЗА</h2>
+            </div>
+            <h3 class="tour__subtitle">Способы оплаты</h3>
+            <div class="payment__disclaimer">
+                <div class="tour__disclaimer">
+                    Услуга оплачивается согласно выставленному счету в отделении банка, или в офисе компании. <br>
+                    <br>
+                    Либо по ссылке на оплату на сайте с помощью банковской карты онлайн. <br>
+                    <br>
+                    Оплата онлайн происходит через систему ArtPay банковскими картами Белкарт, Visa, MasterCard. <br>
+                </div>
+                <div class="payment__disclaimer-image">
+                    <img src="img/logobelcard.png" alt="belcard">
+                </div>
+            </div>
+            <h3 class="tour__subtitle">Оплата с ArtPay</h3>
+            <div class="payment__wrapper">
+                <div class="payment__info">
+                    <div class="payment__info-text">
+                        <div class="tour__text">
+                            Услуга бесплатная, без дополнительных комиссий и процентов.
+                        </div>
+                        <div class="tour__text">
+                            На защищенной платежной странице системы ArtPAy будет отображаться номер счета, наименование услуги, сумма счета и валюта платежа.
+                        </div>
+                    </div>
+                    <div class="payment__info-image">
+                        <img src="img/logomasercard.png" alt="mastercard">
+                    </div>
+                </div>
+                <div class="payment__info">
+                    <div class="payment__info-text">
+                        <div class="tour__text">
+                            Введите реквизиты банковской карты — номер, имя на карте, срок действия, CVV2/CVC2 код и адрес электронной почты для получения электронного карт-чека и кликните «Оплатить».
+                        </div>
+                    </div>
+                    <div class="payment__info-image">
+                        <img src="img/logovisa.png" alt="visa">
+                    </div>
+                </div>
+                <div class="payment__info">
+                    <div class="payment__info-text">
+                        <div class="tour__text">
+                            Если ваша карта и банк поддерживают стандарт безопасности 3D-Secure, вам могут предложить ввести ваш секретный пароль 3D-Secure. Чтобы получить пароль 3D-Secure, необходимо обратиться в банк (номер телефона указан на вашей банковской карте).
+                        </div>
+                    </div>
+                    <div class="payment__info-image">
+                        <img src="img/logoartpay.png" alt="artpay">
+                    </div>
+                </div>
+            </div>
+            <div class="tour__text">
+                В результате проведенной оплаты с использованием банковской платежной карты будет сформирован карт-чек в электронном виде (высылается на ваш адрес электронной почты, указанный при вводе реквизитов для оплаты), отражающий реквизиты операции оплаты и являющийся подтверждением совершения операции оплаты. Сохраняйте чек для сверки с выпиской из карт-счёта (с целью подтверждения совершённых операций в случае возникновения спорных ситуаций).
+            </div>
+            <h3 class="tour__subtitle">Безопасность</h3>
+            <div class="payment__security">
+                <div class="payment__security-image">
+                    <img src="img/payment_woman.png" alt="">
+                </div>
+                <div class="payment__security-text tour__text">
+                    Оплата банковской картой в системе ArtPay удобна и безопасна. Передача данных в процессе оплаты заказа происходит в защищенном режиме TLS 1.2 с длиной ключа шифрования 256 бит с использованием технологий 3-D Secure Verified by VISA и MasterCard Secure Code. <br>
+                    <br>
+                    Сервис-провайдер защищает данные вашей банковской карты, подтвержденные соответствием стандарту безопасности PCI DSS 3.1. <br>
+                    <br>
+                    Передача информации происходит по закрытым банковским сетям, имеющим наивысший уровень надежности. <br>
+                    <br>
+                    Процессинговый центр не передает данные вашей банковской карты нашей компании и иным третьим лицам.
+                </div>
+            </div>
+            <h3 class="tour__subtitle">Возврат денежных средств</h3>
+            <div class="tour__text">
+                В случае отмены заказа возврат денежных средств осуществляется Продавцом в той форме, в которой была произведена оплата Товара (услуги), в сроки, установленные законодательством Республики Беларусь. Денежные средства возвращаются на ту карту, с которой был произведен платеж.
+            </div>
+        </div>
+        <form class="form">
+            <h2 class="form__title">ОТПРАВЛЯЙТЕСЬ<br> В ПУТЕШЕСТВИЕ С НАМИ</h2>
+            <div class="form__subtitle">Оставьте свои данные и мы свяжемся с вами</div>
+            <input type="text" value="" placeholder="Имя">
+            <input type="number" value="" placeholder="Номер телефона" class="form__phone">
+            <button class="form__button">Позвоните мне</button>
+        </form>
+    </section>
+    @@include('./html/_footer.html')
+</body>
+</html>

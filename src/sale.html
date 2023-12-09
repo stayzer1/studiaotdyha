@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    @@include('./html/_header-dark.html')
+    <section class="sale">
+        <div class="container">
+            <div class="deal-visa__intro">
+                <a href="index.html" class="back__btn">
+                <img src="img/arrow_back.svg" alt="">
+                </a>
+                <h2 class="deal-visa__title">АКЦИИ И СКИДКИ</h2>
+            </div>
+            <div class="tour__images">
+                <a href="#" class="tour__cards">
+                    <img src="img/sale-turkey.png" alt="">
+                    <div class="tour__images-text">ТУРЦИЯ ДЛЯ РОССИЯН</div>
+                </a>
+                <a href="#" class="tour__cards">
+                    <img src="img/sale-poland.png" alt="">
+                    <div class="tour__images-text">ВИЗЫ В ПОЛЬШУ И ЛИТВУ ЗА 25 byn!</div>
+                </a>
+                <a href="#" class="tour__cards">
+                    <img src="img/sale-corp.png" alt="">
+                    <div class="tour__images-text">КОРПОРАТИВНЫЙ ОТДЫХ</div>
+                </a>
+            </div>
+        </div>
+        <form class="form">
+            <h2 class="form__title">ОТПРАВЛЯЙТЕСЬ<br> В ПУТЕШЕСТВИЕ С НАМИ</h2>
+            <div class="form__subtitle">Оставьте свои данные и мы свяжемся с вами</div>
+            <input type="text" value="" placeholder="Имя">
+            <input type="number" value="" placeholder="Номер телефона" class="form__phone">
+            <button class="form__button">Позвоните мне</button>
+        </form>
+    </section>
+    @@include('./html/_footer.html')
+</body>
+</html>

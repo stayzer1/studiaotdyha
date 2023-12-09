@@ -1,0 +1,82 @@
+.payment {
+    background-color: #F2F2EA;
+    .payment__disclaimer {
+        display: flex;
+        align-items: center;
+        gap: clamp(0.625rem, -0.625rem + 4.17vw, 2.5rem);
+    }
+    .tour__disclaimer {
+        width: clamp(22.375rem, 18.958rem + 11.39vw, 27.5rem);
+        height: clamp(12rem, 8.75rem + 10.83vw, 16.875rem);
+    }
+    .tour__text {
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    .payment__info {
+        display: flex;
+        align-items: center;
+        gap: clamp(0.625rem, -0.625rem + 4.17vw, 2.5rem);
+        .tour__text {
+            width: clamp(22.375rem, 18.958rem + 11.39vw, 27.5rem);
+        }
+    }
+    .payment__security {
+        display: flex;
+        gap: clamp(0.625rem, -0.625rem + 4.17vw, 2.5rem);
+        align-items: center;
+    }
+    .payment__security-image {
+        width: clamp(10.875rem, 3.125rem + 25.83vw, 22.5rem);
+        height: clamp(8.125rem, 2.292rem + 19.44vw, 16.875rem);
+        img {
+            width: clamp(10.875rem, 3.125rem + 25.83vw, 22.5rem);
+        height: clamp(8.125rem, 2.292rem + 19.44vw, 16.875rem);
+        }
+    }
+    .form {
+        background: url(../img/form_payment.png) center (center/cover) no-repeat;
+    }
+}
+@media screen and (max-width: 767px) {
+    .payment{
+        .payment__info {
+            flex-direction: column;
+            align-items: normal;
+            .tour__text {
+                padding-top: 15px;
+            }
+        }
+        .tour__text {
+            padding-top: 15px;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .payment {
+        .payment__disclaimer {
+            flex-direction: column;
+            align-items: normal;
+        }
+        .payment__security {
+            flex-direction: column;
+            align-items: normal;
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    .payment {
+        .payment__info-image {
+            display: none;
+        }
+        .payment__disclaimer-image {
+            display: none;
+        }
+        .payment__security-image {
+            display: none;
+        }
+        .payment__disclaimer, .payment__info, .payment__security{
+            align-items: center;
+        }
+    }
+}

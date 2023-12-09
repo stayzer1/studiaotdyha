@@ -1,0 +1,20 @@
+.blog {
+    background-color: #F2F2EA;
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        padding: 0;
+    }
+    .blog {
+        
+        .tour__images {
+            padding-left: 7px;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+        .container {
+            padding: 0 45px;
+        }
+}

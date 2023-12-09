@@ -1,0 +1,25 @@
+.sertificate {
+    .tour__text {
+        padding: 20px 0 20px 0;
+    }
+    .tour__disclaimer {
+        text-align: center;
+    }
+    .sertificate__banner {
+        background: url(../img/banner_payment.png) center (center/cover) no-repeat;
+        &-text {
+            padding-top: clamp(0.875rem, -0.125rem + 3.33vw, 2.375rem);
+            color: #F2F2EA;
+            justify-content: flex-end;
+            align-items: end;
+            width: 70%;
+        }
+        &-text2 {
+            padding-bottom: clamp(1.125rem, -0.625rem + 5.83vw, 3.75rem);
+            color: #F2F2EA;
+            justify-content: flex-end;
+            align-items: end;
+            width: 78%;
+        }
+    }
+}

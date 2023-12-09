@@ -1,0 +1,38 @@
+.discount {
+    background-color: #F2F2EA;
+    background: url(../img/discount-bkg.png) center (center/cover) no-repeat;
+
+    .tour__text {
+        padding: 20px 0 20px 0;
+    }
+    .discount__banner { 
+        background: url(../img/banner-discount.png) center (center/cover) no-repeat;
+        height: clamp(6.438rem, -2.438rem + 29.58vw, 19.75rem);
+    }
+    .discount__banner-text{
+        padding-top: clamp(1.25rem, 0.417rem + 2.78vw, 2.5rem);
+        padding-bottom: clamp(0.75rem, 0.417rem + 1.11vw, 1.25rem);
+        color: #F2F2EA;
+        width: clamp(16.688rem, -4.813rem + 71.67vw, 48.938rem);
+        font-size: clamp(0.875rem, -0.208rem + 3.61vw, 2.5rem);
+        height: auto;
+        
+    }
+    .discount__banner-text2{
+        color: #F2F2EA;
+        justify-content: flex-end;
+        align-items: end;
+        width: 80%;
+        font-size: clamp(0.875rem, -0.208rem + 3.61vw, 2.5rem);
+    }
+    .deal-visa__link-btn {
+        margin-top: clamp(2rem, 6.67vw, 5rem);
+    }
+}
+@media screen and (max-width: 550px) {
+    .discount {
+        .discount__banner-text {
+            padding-bottom: 0;
+        }
+    }
+}
