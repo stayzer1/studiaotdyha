@@ -1,0 +1,25 @@
+.countrypage {
+    background-color: #F2F2EA;
+    .tour__text {
+        padding: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .countrypage__image {
+        width: clamp(22.375rem, -1.042rem + 78.06vw, 57.5rem);
+        height: clamp(9.688rem, -0.521rem + 34.03vw, 25rem);
+        img {
+            width: clamp(22.375rem, -1.042rem + 78.06vw, 57.5rem);
+            height: clamp(9.688rem, -0.521rem + 34.03vw, 25rem);
+        }
+    }
+    .countrypage__end {
+        padding-top: clamp(1.25rem, 0.417rem + 2.78vw, 2.5rem);
+        padding-bottom: clamp(3.75rem, 2.083rem + 5.56vw, 6.25rem);
+        color: #3D6B8C;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px; /* 111.111% */
+    }
+}

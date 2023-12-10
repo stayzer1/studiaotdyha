@@ -1,0 +1,100 @@
+.about {
+    background-color: #F2F2EA;
+    .about__info {
+        display: flex;
+        gap: 40px;
+        flex-basis: 25%;
+        justify-content: center;
+        flex-wrap: wrap;
+        .tour__text {
+            width: clamp(9.813rem, -1.979rem + 39.31vw, 27.5rem);
+            height: 82px;
+            padding: 0;
+        }
+    }
+    .about__info-wrapper {
+        .tour__text {
+            margin-bottom: 40px;
+        }
+    }
+    .about__info-images {
+        width: clamp(10.875rem, -0.208rem + 36.94vw, 27.5rem);
+        height: clamp(9.688rem, -0.104rem + 32.64vw, 24.375rem);
+        img {
+            width: clamp(10.875rem, -0.208rem + 36.94vw, 27.5rem);
+            height: clamp(9.688rem, -0.104rem + 32.64vw, 24.375rem);
+        }
+    }
+    .about__banner {
+        margin-top: 60px;
+        align-items: center;
+        display: flex;
+        background: url(../img/banner-about.png) center (center/cover) no-repeat;
+        height: clamp(4.125rem, -1.458rem + 18.61vw, 12.5rem);
+        .deal-visa__title {
+            color: #fff;
+            align-items: center;
+            text-align: end;
+            justify-content: flex-end;
+            width: 80%;
+            font-size: clamp(1rem, 3.33vw, 2.5rem);
+        }
+    }
+    .reviews {
+        padding-top: clamp(3.75rem, 2.083rem + 5.56vw, 6.25rem);
+        background: url(../img/reviews_bkg.png) center (center/cover) no-repeat;
+        .deal-visa__title {
+            margin-bottom: clamp(2.5rem, 1.667rem + 2.78vw, 3.75rem);
+        }
+        .reviews__cards {
+            display: flex;
+            justify-content: center;
+            gap: clamp(0.938rem, -0.104rem + 3.47vw, 2.5rem);
+            flex-wrap: wrap;
+            padding-bottom: clamp(3.75rem, 2.083rem + 5.56vw, 6.25rem);
+        }
+        .reviews__card {
+            width: clamp(10.875rem, 6.458rem + 14.72vw, 17.5rem);
+            height: clamp(14.5rem, 11.917rem + 8.61vw, 18.375rem);
+            display: inline-flex;
+            padding: 5px;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            border-radius: 12px;
+            background: linear-gradient(242deg, #C39D8A -6.16%, #E3CBC7 23.03%, #AFC2C8 60.3%, #AFC2C8 85.77%, #5DB6B9 113.09%);
+            .tour__subtitle {
+                margin: 0;
+                text-align: center;
+            }
+            .reviews__card-image {
+                border-radius: 80px;
+                width: clamp(5rem, 3.333rem + 5.56vw, 7.5rem);
+                height: clamp(5rem, 3.333rem + 5.56vw, 7.5rem);
+                img {
+                    width: clamp(5rem, 3.333rem + 5.56vw, 7.5rem);
+                    height: clamp(5rem, 3.333rem + 5.56vw, 7.5rem);
+                }
+            }
+            .reviews__card-text {
+                color: #37393A;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: clamp(0.875rem, 0.792rem + 0.28vw, 1rem);
+                font-weight: 500;
+                line-height: clamp(1rem, 0.833rem + 0.56vw, 1.25rem);
+            }
+        }
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .about {
+        .about__info-wrapper .tour__text {
+            margin-bottom: 80px;
+        }
+        .reviews {
+
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.countries {
+    background-color: #F2F2EA;
+    padding-bottom: clamp(3.75rem, 2.083rem + 5.56vw, 6.25rem);
+    .visa__card {
+        background-image: linear-gradient(242deg, #C39D8A -6.16%, #E3CBC7 23.03%, #AFC2C8 60.3%, #AFC2C8 85.77%, #5DB6B9 113.09%);
+    }
+    .visa__card-title a {
+        color: #3D6B8C;
+    }
+}

@@ -1,0 +1,22 @@
+.services {
+    background-color: #F2F2EA;
+    .visa__card {
+        background-image: linear-gradient(242deg, #C39D8A -6.16%, #E3CBC7 23.03%, #AFC2C8 60.3%, #AFC2C8 85.77%, #5DB6B9 113.09%);
+    }
+    padding-bottom: clamp(3.75rem, 2.083rem + 5.56vw, 6.25rem);
+}
+.services-avia {
+    .tour__text {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .services-page__image {
+        text-align: center;
+        width: clamp(22.375rem, -1.042rem + 78.06vw, 57.5rem);
+        height: clamp(9.688rem, -0.521rem + 34.03vw, 25rem);
+        img {
+            width: clamp(22.375rem, -1.042rem + 78.06vw, 57.5rem);
+            height: clamp(9.688rem, -0.521rem + 34.03vw, 25rem);
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.salepage {
+    .tour__text {
+        padding: 20px 0 20px 0;
+    }
+    .salepage__info {
+        font-family: Montserrat;
+        font-size: clamp(0.875rem, 0.792rem + 0.28vw, 1rem);
+        font-weight: 400;
+        line-height: clamp(1rem, 0.833rem + 0.56vw, 1.25rem);
+        color: #37393A;
+        padding-bottom: 10px;
+    }
+    .salepage__title {
+        padding-bottom: 15px;
+        color: #3D6B8C;
+        font-family: Oswald;
+        font-size: clamp(0.875rem, 0.708rem + 0.56vw, 1.125rem);
+        font-weight: 400;
+        line-height: clamp(1.125rem, 1.042rem + 0.28vw, 1.25rem);
+    }
+    .form {
+        background: url(../img/form2_bkg.png) center (center/cover) no-repeat;
+    }
+}
