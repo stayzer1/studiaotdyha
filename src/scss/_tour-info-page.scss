@@ -1,0 +1,80 @@
+.tourinfo{
+    background-color: #F2F2EA;
+    .tour__text {
+        padding: 0;
+        padding-top: 10px;
+    }
+    
+}
+.tourinfo-images {
+    margin-top: clamp(1.5rem, 0.833rem + 2.22vw, 2.5rem);
+    display: grid;
+    justify-content: center;
+    gap: clamp(0.875rem, 0.625rem + 0.83vw, 1.25rem);
+    grid-template-columns: clamp(10.875rem, 9.792rem + 3.61vw, 12.5rem) clamp(10.875rem, 4.792rem + 20.28vw, 20rem) clamp(5.063rem, -3.229rem + 27.64vw, 17.5rem);
+    grid-template-rows: clamp(4.563rem, -0.729rem + 17.64vw, 12.5rem)    clamp(7.438rem, -4.688rem + 40.42vw, 25.625rem);
+}
+.tourinfo-image:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: clamp(10.875rem, 9.792rem + 3.61vw, 12.5rem);
+    height: clamp(4.5rem, -0.833rem + 17.78vw, 12.5rem);
+    img {
+        width: clamp(10.875rem, 9.792rem + 3.61vw, 12.5rem);
+        height:  clamp(4.5rem, -0.833rem + 17.78vw, 12.5rem);
+    }
+}
+.tourinfo-image:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: clamp(10.875rem, 4.792rem + 20.28vw, 20rem);
+    height: clamp(4.563rem, -0.729rem + 17.64vw, 12.5rem);
+    img {
+        width: clamp(10.875rem, 4.792rem + 20.28vw, 20rem);
+        height: clamp(4.563rem, -0.729rem + 17.64vw, 12.5rem);
+    }
+}
+.tourinfo-image:nth-child(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: clamp(5.063rem, -3.229rem + 27.64vw, 17.5rem);
+    height: clamp(7.438rem, 4.063rem + 11.25vw, 12.5rem);
+    img {
+        width: clamp(5.063rem, -3.229rem + 27.64vw, 17.5rem);
+        height: clamp(7.438rem, 4.063rem + 11.25vw, 12.5rem);
+    }
+}
+.tourinfo-image:nth-child(4) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: clamp(10.875rem, -4.375rem + 50.83vw, 33.75rem);
+    height: clamp(7.438rem, -4.688rem + 40.42vw, 25.625rem);
+    img {
+        width: clamp(10.875rem, -4.375rem + 50.83vw, 33.75rem);
+        height: clamp(7.438rem, -4.688rem + 40.42vw, 25.625rem); 
+    }
+}
+.tourinfo-image:nth-child(5) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: clamp(5.125rem, -3.125rem + 27.5vw, 17.5rem);
+    height: clamp(7.563rem, -4.479rem + 40.14vw, 25.625rem);
+    img {
+        width: clamp(5.125rem, -3.125rem + 27.5vw, 17.5rem);
+        height: clamp(7.563rem, -4.479rem + 40.14vw, 25.625rem);
+    }
+}
+.deal-visa__link-btn {
+    width: 210px;
+    margin-top: clamp(2rem, 0.833rem + 3.89vw, 3.75rem);
+}
+@media screen and (max-width: 767px) {
+        .tourinfo-images {
+            display: flex;
+            flex-wrap: wrap;
+        }
+}

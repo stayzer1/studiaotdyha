@@ -1,2 +1,2 @@
-// Custom Scripts
-@@include('main.js')
+/* Custom Scripts */
+@@include('main.js');

@@ -1,0 +1,49 @@
+.contacts {
+    background: url(../img/contacts_bkg.png) center (center/cover) no-repeat;
+    .tour__text {
+        padding: 15px 0 15px 0;
+    }
+    .black {
+        color: #37393A;
+        padding: 15px 0;
+    }
+    .tour__cards-title {
+        padding-top: 15px;
+    }
+    .contacts__social-main {
+
+        background-color: #D3D6D0;
+    }
+    .contacts__social {
+        padding-top: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .tour__cards-title {
+            padding-top: 25px;
+            padding-bottom: 0;
+        }
+    }
+    .contacts__social-right {
+        width: clamp(16.25rem, 5.417rem + 36.11vw, 32.5rem);
+        height: clamp(17.625rem, 10.417rem + 24.03vw, 28.438rem);
+        img {
+            width: clamp(16.25rem, 5.417rem + 36.11vw, 32.5rem);
+            height: clamp(17.625rem, 10.417rem + 24.03vw, 28.438rem);
+        }
+    }
+    .deal-visa__link-btn {
+        margin-top: clamp(1.5rem, 5vw, 3.75rem);
+    }
+    .form {
+        background: url(../img/form2_bkg.png) center (center/cover) no-repeat;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contacts {
+        .contacts__social {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}

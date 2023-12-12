@@ -1,0 +1,70 @@
+.hoteldescr {
+    background-color: #F2F2EA;
+    .tour__text {
+        padding: 15px 0 10px 0;
+    }
+    .tabs__content-item {
+        justify-content: flex-start;
+    }
+    .hoteldescr__block {
+        .tour__text {
+            padding: 5px 0 5px 0;
+        }
+        width: 240px;
+    }
+    .hoteldescr__rooms {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .hoteldescr__rooms-left {
+        width: 280px;
+        .tour__text {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+    .hoteldescr__list {
+        margin-bottom: 30px;
+        li {
+            padding-left: 10px;
+            margin-left: 40px;
+            color: #3D6B8C;
+            font-family: Montserrat;
+            font-size: clamp(0.875rem, 0.792rem + 0.28vw, 1rem);
+            font-style: normal;
+            font-weight: 400;
+            line-height: clamp(1.125rem, 1.042rem + 0.28vw, 1.25rem);
+        }
+    }
+    .hoteldescr__list1 {
+        list-style-image: url(../img/SVGRepo_iconCarrier.svg);
+    }
+    .hoteldescr__list2 {
+        list-style-image: url(../img/drink.svg);
+    }
+    .hoteldescr__list3 {
+        list-style-image: url(../img/template.svg);
+    }
+    .hoteldescr__rooms-right {
+        width: clamp(22.375rem, 12.292rem + 33.61vw, 37.5rem);
+    }
+    .splide-main-image {
+        width: clamp(22.375rem, 12.292rem + 33.61vw, 37.5rem);
+        height: clamp(11.438rem, 6.313rem + 17.08vw, 19.125rem);
+    }
+    .tabs__content-item {
+        padding-bottom: clamp(1.563rem, 0.104rem + 4.86vw, 3.75rem);
+        width: 100%;
+    }
+    .hoteldescr__disclaimer {
+        width: 100%;
+        display: flex;
+        // flex-wrap: wrap;j
+        justify-content: space-between;
+        .tour__disclaimer {
+            width: auto;
+        }
+    }
+}

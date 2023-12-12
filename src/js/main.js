@@ -68,3 +68,58 @@ function accordion() {
   })
 }
 accordion() 
+
+/* ТАБЫ */
+function tabs(headerSelector, tabSelector, contentSelector, activeClass, display='flex') {
+  const header = document.querySelector(headerSelector),
+        tab = document.querySelectorAll(tabSelector),
+        content = document.querySelectorAll(contentSelector)
+  function hideTabContent() {
+      content.forEach(item => {
+          item.style.display = 'none'
+      });
+      tab.forEach(item => {
+          item.classList.remove(activeClass)
+      });
+  }
+  function showTabContent(i = 0) {
+    content[i].style.display = display
+    tab[i].classList.add(activeClass)
+  }
+  hideTabContent()
+  showTabContent()
+  header.addEventListener('click', e => {
+      const target = e.target
+      if (target.classList.contains(tabSelector.replace(/\./, '')) || 
+      target.parentNode.classList.contains(tabSelector.replace(/\./, ''))) {
+          tab.forEach((item, i) => {
+              if ( target == item || target.parentNode == item ) {
+                  hideTabContent()
+                  showTabContent(i)
+              }
+          });
+      }
+  })
+}
+tabs( '.tabs__header' ,'.tabs__header-item', '.tabs__content-item', 'active');
+
+document.addEventListener( 'DOMContentLoaded', function () {
+  const main = new Splide( '#main-carousel', {
+    type: 'fade',
+    arrows: false,
+    pagination: false,
+    fixedWidth: 600,
+  });
+  const thumbnails = new Splide( '#thumbnail-carousel', {
+    fixedWidth  : 130,
+    fixedHeight : 80,
+    gap         : 10,
+    arrows: false,
+    rewind      : true,
+    pagination  : false,
+    isNavigation: true,
+  } );
+  main.sync( thumbnails );
+  main.mount();
+  thumbnails.mount();
+} );

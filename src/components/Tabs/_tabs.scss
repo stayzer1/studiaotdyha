@@ -1,17 +1,32 @@
+.hotels {
+    background-color: #F2F2EA;
+    .deal-visa__link-btn {
+        margin-top: clamp(2rem, 0.833rem + 3.89vw, 3.75rem);
+    }
+}
+
 .tabs {
     width: 100%;
-    margin-top: 150px;
     &__header {
         display: flex;
         justify-content: center;
+        overflow: scroll;
         @media (max-width: 768px) {
-            flex-wrap: wrap;
+            // flex-wrap: wrap;
         }
         &-item {
-            margin: 0 25px;
+            margin: 0 10px;
             cursor: pointer;
+            color: #3D6B8C;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: clamp(0.875rem, 0.792rem + 0.28vw, 1rem);
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
             &.active {
-                color: red;
+                color: #4E89B2;
+                border-bottom: 2px solid #4E89B2;
             }
         }
     }
@@ -19,7 +34,69 @@
         margin-top: 50px;
         display: flex;
         justify-content: center;
-        align-items: center;
+        // align-items: center;
         font-size: 75px;
+        &-item {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: clamp(0.813rem, 0.521rem + 0.97vw, 1.25rem);
+        }
+        .hotel__card {
+            display: flex;
+            width: 440px;
+            padding: 20px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 20px;
+            background: linear-gradient(242deg, #C39D8A -6.16%, #E3CBC7 23.03%, #AFC2C8 60.3%, #AFC2C8 85.77%, #5DB6B9 113.09%);
+            width: clamp(22.375rem, 18.958rem + 11.39vw, 27.5rem);
+            height: clamp(18.313rem, 15.521rem + 9.31vw, 22.5rem);
+        }
+        .hotel__card-image {
+            width: clamp(20.875rem, 18.125rem + 9.17vw, 25rem);
+            height: clamp(10.438rem, 8.646rem + 5.97vw, 13.125rem);
+            img {
+                width: clamp(20.875rem, 18.125rem + 9.17vw, 25rem);
+                height: clamp(10.438rem, 8.646rem + 5.97vw, 13.125rem);
+            }
+        }
+        .hotel__card-title {
+            color: #3D6B8C;
+            text-align: center;
+            font-family: Oswald;
+            font-size: clamp(0.875rem, 0.708rem + 0.56vw, 1.125rem);
+            font-weight: 400;
+            line-height: clamp(1.125rem, 1.042rem + 0.28vw, 1.25rem);
+        }
+        .hotel__card-stars {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            width: 20px;
+            height: 20px;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .hotel__card-btn {
+            display: flex;
+            padding: 10px 20px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 20px;
+            background: #3D6B8C;
+            color: var(--2, #F2F2EA);
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+        }
     }
 }

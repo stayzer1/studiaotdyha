@@ -1,0 +1,15 @@
+.loading {
+    background: url(../img/others__bkg.png) center (center/cover) no-repeat;
+    img {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        padding-top: clamp(13.125rem, 11.458rem + 5.56vw, 15.625rem);
+    }
+    .tour__subtitle {
+        margin: 0;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: clamp(11.625rem, 6.875rem + 15.83vw, 18.75rem);
+    }
+}
